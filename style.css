@@ -69,12 +69,17 @@ img {
 
 .grid1 {
     display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
     grid-template-columns: repeat(3, 1fr);
     max-width: 800px;
     padding: 10px;
     margin: 0 auto;
     grid-gap: 20px;
 }
+
+/* .grid1>div:nth-child(1) {
+ background-color: blue ;
+} */
 
 .grid1>div:nth-child(n + 4) {
     display: grid;
