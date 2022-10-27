@@ -88,6 +88,13 @@ img {
     align-items: center;
 }
 
+/* .anuncio { 
+    grid-column: 1;
+    grid-row: 2 / 5;
+    display: block;
+    border-top: 10px solid tomato;
+}    */
+
 .grid1>div.anuncio {
     grid-column: 1;
     grid-row: 2 / 5;
